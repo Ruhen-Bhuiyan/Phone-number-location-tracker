@@ -21,8 +21,7 @@ class Track:
         self.trackingbutton.place(x=200, y=200)
         self.countryname.place(x=100, y=280)
         self.countryname2.place(x=300, y=280)
-        self.trackingbutton.bind("<Button-1>", self.Track_THE_location)    
-        
+        self.trackingbutton.bind("<Button-1>", self.Track_THE_location)           
     def Track_THE_location(self, event):
         phone_number = self.mobile_number.get()
         if phone_number:
