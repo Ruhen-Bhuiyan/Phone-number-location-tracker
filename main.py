@@ -11,8 +11,7 @@ class Track:
         self.window.title("Phone number Tracker")
         self.window.geometry("500x400")
         self.window.configure(bg="#2f2212")
-        self.window.resizable(True, True)
-        
+        self.window.resizable(True, True)    
         Label(App, text="Enter the phone number", fg="orange", font=("Times", 20), bg="#3f5edb").place(x=150, y=30)
         self.mobile_number = Entry(App, width=14, font=("Arial", 15), relief="flat")
         self.trackingbutton = Button(App, text="To track the number click here", bg="#22c6c3", relief="sunken")
