@@ -5,7 +5,6 @@ from tkinter import Tk, Label, Button, Entry
 from phonenumbers import carrier
 from phonenumbers import geocoder
 from phone_iso3166.country import phone_country
-
 class Track:
     def __init__(self, App):
         self.window = App
