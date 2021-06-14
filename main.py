@@ -1,6 +1,5 @@
 import json
 import phonenumbers
-
 import pycountry
 from tkinter import Tk, Label, Button, Entry
 from phonenumbers import carrier
